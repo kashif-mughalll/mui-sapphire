@@ -5,7 +5,7 @@ import MuiIconButton from '@mui/material/IconButton';
 import InputAdornment from '@mui/material/InputAdornment';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
-import styledComponent from 'components/Styled/Styled';
+import styledComponent from 'components/styled/styled';
 import colors from 'utils/colors';
 import PropTypes from 'prop-types'
 

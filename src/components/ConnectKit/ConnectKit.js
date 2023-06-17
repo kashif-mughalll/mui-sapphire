@@ -1,5 +1,4 @@
 import React from 'react';
-// import 'sudofy-design-kit1/dist/index.css';
 import { PropTypes } from 'prop-types';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme as defaultTheme } from 'theme/theme';
@@ -28,7 +27,7 @@ function ConnectKit({ children, theme }) {
     if (theme) newTheme = nestedassign(defaultTheme, theme);
 
     return (
-      <div className='sudofy-design-kit-wrapper'>
+      <div className='sapphire-design-kit-wrapper'>
         <ThemeProvider theme={newTheme}>{children}</ThemeProvider>
       </div>
     );

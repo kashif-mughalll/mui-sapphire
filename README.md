@@ -1,1 +1,0 @@
-# Sudofy Design Kit

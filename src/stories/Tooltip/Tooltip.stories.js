@@ -1,31 +1,31 @@
 import React from 'react';
-import SudofyTooltip from 'components/Tooltip/Tooltip';
+import Tooltip from 'components/Tooltip/Tooltip';
 import IconButton from 'components/IconButton/IconButton';
-import { ReactComponent as SudofyIcon } from 'assets/Sudofy.svg';
+import PuffinIcon from 'assets/icon.png';
 import { tooltipPlacements } from 'utils/constants';
 
 export default {
-    title: 'Components/Tooltip',
-    component: SudofyTooltip,
-    argTypes: {
-        placement: {
-            control: 'select',
-            options: tooltipPlacements,
-        },
-        children: {
-            table: {
-                disable: true
-            }
-        },
-    }
+  title: 'Components/Tooltip',
+  component: Tooltip,
+  argTypes: {
+    placement: {
+      control: 'select',
+      options: tooltipPlacements,
+    },
+    children: {
+      table: {
+        disable: true,
+      },
+    },
+  },
 };
 
-const Template = (args) => <SudofyTooltip {...args} />
+const Template = (args) => <Tooltip {...args} />;
 
 export const Tooltip = Template.bind({});
 Tooltip.args = {
-    title: 'Sudofy Tooltip',
-    arrow: false,
-    placement: 'right',
-    children: <IconButton icon={<SudofyIcon />} variant='secondary' />,
+  title: 'Puffin Tooltip',
+  arrow: false,
+  placement: 'right',
+  children: <IconButton icon={<PuffinIcon />} variant='secondary' />,
 };

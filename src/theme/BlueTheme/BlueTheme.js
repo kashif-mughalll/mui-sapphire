@@ -2,7 +2,7 @@ import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from 'theme/theme';
 
-const SudofyTheme = ({ children }) => {
+const BlueTheme = ({ children }) => {
     return (
         <ThemeProvider theme={theme}>
             {children}
@@ -10,4 +10,4 @@ const SudofyTheme = ({ children }) => {
     )
 }
 
-export default SudofyTheme;
+export default BlueTheme;

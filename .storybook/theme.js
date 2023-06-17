@@ -1,11 +1,9 @@
 import { create } from '@storybook/theming';
-import Logo from './sudofy-logo.svg';
-import colors from '../src/utils/colors';
+import Logo from './icon.png';
 
 export default create({
     base: 'light',
-    appBg: colors.primary[0],
-    brandTitle: 'Sudofy Development Kit',
-    brandUrl: 'https://sudofy.com',
+    appBg: '#eee',
+    brandTitle: 'MUI sapphire',
     brandImage: Logo,
 });

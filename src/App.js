@@ -19,7 +19,7 @@ import Tabs from 'components/Tabs/Tabs';
 import Chip from 'components/Chip/Chip';
 import FaceIcon from '@mui/icons-material/Face';
 import Switch from 'components/Switch/Switch';
-import { ReactComponent as SudofyIcon } from 'assets/Sudofy.svg';
+import PuffinIcon from 'assets/icon.png';
 import MultipleSelect from 'components/Dropdown/MultipleSelect';
 
 import Autocomplete from 'components/Autocomplete/Autocomplete';
@@ -178,7 +178,7 @@ function App() {
     {
       option: 'Ten dasfjkk ajksdf  jkadjksfjsdajk sdjkafjasjkadjksfjsdajk sdjkafjas',
       value: 10,
-      avatar: <SudofyIcon />
+      avatar: <PuffinIcon />
     },
     {
       option: 'Twenty',

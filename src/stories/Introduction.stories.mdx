@@ -1,7 +1,7 @@
 import { Meta } from '@storybook/addon-docs';
-import Illustration from './assets/illustration.svg';
+import Illustration from './assets/abc.png';
 
-<Meta title="Getting Started/Welcome" />
+<Meta title='Getting Started/Welcome' />
 
 <style>{`
   .sbdocs-wrapper {
@@ -14,11 +14,17 @@ import Illustration from './assets/illustration.svg';
     width: 80%;
   }
 
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
   .subheading {
     font-family: "poppins";
     font-weight: 700;
     font-size: 22px; 
-    color: #3071CD;
+    color: #d3912f;
     text-align: center;
   }
 
@@ -34,8 +40,7 @@ import Illustration from './assets/illustration.svg';
   img {
     margin: 24px 0;
     max-width: unset;
-    width: 100%;
-    max-height: calc(100vh - 248px);
+    width: 300px
   }
 
   #text {
@@ -80,9 +85,15 @@ import Illustration from './assets/illustration.svg';
     }
   }
 `}</style>
+
 <div>
-  <div className="subheading">WELCOME TO</div>
-  <div className="mainheading">Sudofy Development Kit</div>
-  <img src={Illustration} alt="illustration" />
-  <p id="text">Here you will find information about the Design Kit of that Sudofy can offer. This is a complete guideline that can help you to choose the right set of services to fulfil your needs.</p>
+  <div className='subheading'>WELCOME TO</div>
+  <div className='mainheading'>Sapphire Development Kit</div>
+  <div className='flex'>
+    <img src={Illustration} alt='illustration' />
+  </div>
+  <p id='text'>
+    This is a complete guideline that can help you to choose the right set of
+    services to fulfil your needs.
+  </p>
 </div>

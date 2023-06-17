@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SudofyTheme from './theme/SudofyTheme/SudofyTheme';
+import Theme from './theme/BlueTheme/BlueTheme';
 
 ReactDOM.render(
   <React.StrictMode>
-    <SudofyTheme>
+    <Theme>
       <App />
-    </SudofyTheme>
+    </Theme>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,29 +1,29 @@
 import React from 'react';
-import SudofyBreadcrumbs from './DummyComponent';
+import Breadcrumbs from './DummyComponent';
 
 const data = [
-    {
-        label: 'Home',
-        href: '/'
-    },
-    {
-        label: 'About',
-        href: '/about'
-    },
-    {
-        label: 'Services',
-        href: '/about/services'
-    },
+  {
+    label: 'Home',
+    href: '/',
+  },
+  {
+    label: 'About',
+    href: '/about',
+  },
+  {
+    label: 'Services',
+    href: '/about/services',
+  },
 ];
 
 export default {
-    title: 'Components/Breadcrumbs/Breadcrumbs',
-    component: SudofyBreadcrumbs,
+  title: 'Components/Breadcrumbs/Breadcrumbs',
+  component: Breadcrumbs,
 };
 
-const Template = (args) => <SudofyBreadcrumbs {...args} />
+const Template = (args) => <Breadcrumbs {...args} />;
 
 export const Breadcrumbs = Template.bind({});
 Breadcrumbs.args = {
-    data: data
+  data: data,
 };

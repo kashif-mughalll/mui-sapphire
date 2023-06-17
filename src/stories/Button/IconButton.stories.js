@@ -1,7 +1,7 @@
 import React from 'react';
 import IconButton from 'components/IconButton/IconButton';
 import { buttonVariants, sizes } from 'utils/constants';
-import { ReactComponent as SudofyIcon } from 'assets/Sudofy.svg';
+import Icon from 'assets/icon.png';
 
 export default {
     title: 'Components/Button/Icon Button',
@@ -25,12 +25,12 @@ const Template = (args) => <IconButton {...args} />
 export const Primary = Template.bind({});
 Primary.args = {
     disabled: false,
-    icon: <SudofyIcon />
+    icon: <Icon />
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
     variant: 'secondary',
     disabled: false,
-    icon: <SudofyIcon />
+    icon: <Icon />
 };

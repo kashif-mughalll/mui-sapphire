@@ -21,7 +21,7 @@ import Tooltip from 'components/Tooltip/Tooltip';
 import Typography from 'components/Typography/Typography';
 import Grid from 'components/Grid/Grid';
 import ConnectKit from 'components/ConnectKit/ConnectKit';
-import styled from 'components/Styled/Styled';
+import styled from 'components/styled/styled';
 import BottomNavigation from 'components/BottomNavigation/BottomNavigation';
 import BottomNavigationAction from 'components/BottomNavigationAction/BottomNavigationAction';
 import Drawer from 'components/Drawer/Drawer';

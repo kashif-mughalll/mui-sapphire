@@ -1,8 +1,8 @@
 import React from 'react';
-import styledComponent from 'components/Styled/Styled';
-import { TabsUnstyled, TabsListUnstyled, TabPanelUnstyled } from "@mui/base";
-import { buttonUnstyledClasses } from "@mui/base/ButtonUnstyled";
-import TabUnstyled, { tabUnstyledClasses } from "@mui/base/TabUnstyled";
+import styledComponent from 'components/styled/styled';
+import { Tabs as TabsUnstyled, TabsList as TabsListUnstyled, TabPanel as TabPanelUnstyled } from "@mui/base";
+// import { buttonUnstyledClasses } from "@mui/base/ButtonUnstyled";
+import { Tab as TabUnstyled } from "@mui/base";
 import colors from 'utils/colors';
 import PropTypes from "prop-types";
 
@@ -33,18 +33,6 @@ const Tab = styledComponent(TabUnstyled, `
     outline: none;
   }
 
-  &.${tabUnstyledClasses.selected} {
-    background-color: ${colors.primary[500]};
-    color: ${colors.secondary.main};
-  }
-
-  &.${buttonUnstyledClasses.disabled} {
-    color: ${colors.greyText[400]};
-    cursor: unset;
-    &:hover {
-      background-color: transparent;
-    }
-  }
 `);
 
 const TabsList = styledComponent(TabsListUnstyled, `
