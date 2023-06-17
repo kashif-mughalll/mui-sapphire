@@ -1,0 +1,88 @@
+import { Meta } from '@storybook/addon-docs';
+import Illustration from './assets/illustration.svg';
+
+<Meta title="Getting Started/Welcome" />
+
+<style>{`
+  .sbdocs-wrapper {
+    padding: 24px 8px;
+    margin: 0;
+  }
+
+  .sbdocs-content {
+    max-width: unset;
+    width: 80%;
+  }
+
+  .subheading {
+    font-family: "poppins";
+    font-weight: 700;
+    font-size: 22px; 
+    color: #3071CD;
+    text-align: center;
+  }
+
+  .mainheading {
+    font-family: "ubuntu";
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+  img {
+    margin: 24px 0;
+    max-width: unset;
+    width: 100%;
+    max-height: calc(100vh - 248px);
+  }
+
+  #text {
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 780px) {
+    .mainheading {
+      margin: 12px 0;
+      font-size: 32px;
+    }
+    .subheading {
+      margin-top: 12px;
+      font-size: 20px;
+    }
+    img {
+      margin: 32px 0;
+    }
+    #text {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .sbdocs-content {
+      width: 90%;
+    }
+    .mainheading {
+      font-size: 28px;
+    }
+    .subheading {
+      font-size: 18px;
+    }
+    #text {
+      font-size: 16px;
+    }
+  }
+`}</style>
+<div>
+  <div className="subheading">WELCOME TO</div>
+  <div className="mainheading">Sudofy Development Kit</div>
+  <img src={Illustration} alt="illustration" />
+  <p id="text">Here you will find information about the Design Kit of that Sudofy can offer. This is a complete guideline that can help you to choose the right set of services to fulfil your needs.</p>
+</div>

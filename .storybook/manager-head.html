@@ -1,0 +1,100 @@
+<link rel="shortcut icon" href="/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Ubuntu:wght@400;700&display=swap"
+    rel="stylesheet">
+
+<style>
+    :root {
+        --primary: #3071CD;
+        --secondary-main: #FFFFFF;
+        --grey-text-700: #5C5C5C;
+    }
+
+    .sidebar-header img {
+        height: 30px;
+    }
+
+    .search-field {
+        margin: 28px 0 !important;
+        height: 32px;
+    }
+
+    .search-field>svg {
+        top: 8px;
+    }
+
+    .search-field>svg:first-child {
+        top: 10px;
+    }
+
+    .search-field code {
+        top: 8px;
+    }
+
+    #storybook-explorer-searchfield {
+        height: 32px;
+        background-color: var(--secondary-main);
+    }
+
+    .sidebar-subheading {
+        text-transform: capitalize !important;
+        font-family: 'ubuntu' !important;
+        color: var(--primary) !important;
+        font-size: 16px !important;
+        font-weight: 700 !important;
+        letter-spacing: 1px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .sidebar-subheading button {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        margin-left: -2px;
+        justify-content: start;
+    }
+
+    .sidebar-subheading button span {
+        margin-left: 12px;
+    }
+
+    .sidebar-subheading .sidebar-subheading-action {
+        display: none;
+    }
+
+    .sidebar-subheading button:focus {
+        color: var(--primary) !important;
+    }
+
+    .sidebar-subheading button span {
+        border-left: 6px solid;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        color: var(--primary);
+    }
+
+    .sidebar-subheading button span:focus,
+    .sidebar-subheading button span:first-of-type {
+        color: var(--primary) !important;
+    }
+
+    .sidebar-item {
+        font-size: 14px !important;
+        font-family: 'poppins' !important;
+        padding-top: 4px !important;
+        padding-bottom: 4px !important;
+        color: var(--grey-text-700) !important;
+    }
+
+    a.sidebar-item[data-selected="true"],
+    a.sidebar-item[data-selected="true"]:focus {
+        background: var(--primary);
+        font-weight: 400;
+        color: var(--secondary-main) !important;
+    }
+
+    .sidebar-item svg {
+        height: 14px;
+        width: 14px;
+        color: var(--grey-text-700);
+    }
+</style>
