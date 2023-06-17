@@ -28,3 +28,5 @@ jobs:
         with:
           branch: gh-pages
           folder: storybook-static
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAGES }}
