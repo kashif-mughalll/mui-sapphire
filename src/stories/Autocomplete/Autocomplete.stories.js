@@ -33,8 +33,8 @@ export default {
 
 const Template = (args) => <Autocomplete {...args} />;
 
-export const Autocomplete = Template.bind({});
-Autocomplete.args = {
+export const CusAutocomplete = Template.bind({});
+CusAutocomplete.args = {
   label: 'Famous Films',
   data: autocompleteData,
   required: false,

@@ -23,7 +23,7 @@ export default {
 
 const Template = (args) => <Breadcrumbs {...args} />;
 
-export const Breadcrumbs = Template.bind({});
-Breadcrumbs.args = {
+export const CusBreadcrumbs = Template.bind({});
+CusBreadcrumbs.args = {
   data: data,
 };

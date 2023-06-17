@@ -22,8 +22,8 @@ export default {
 
 const Template = (args) => <Tooltip {...args} />;
 
-export const Tooltip = Template.bind({});
-Tooltip.args = {
+export const CusTooltip = Template.bind({});
+CusTooltip.args = {
   title: 'Puffin Tooltip',
   arrow: false,
   placement: 'right',
